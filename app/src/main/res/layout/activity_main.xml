@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.salvin.androidnativesocialshare.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="paste your link"
+        android:id="@+id/editText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="link :"
+        android:layout_below="@+id/editText"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:id="@+id/linkTextView"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="#66bb6a"
+        android:text="Share"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:id="@+id/button"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/linkTextView"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
